@@ -2,3 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+.section-one{
+    background: rgb(202, 2, 2);
+    border: 5px solid black;
+}
+.section-two{
+    background: aqua;
+}
