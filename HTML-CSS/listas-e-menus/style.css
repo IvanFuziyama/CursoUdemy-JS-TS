@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    
+}
+nav{
+
+    background-color: rgba(0, 0, 0, 0.5 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 20px; /*ele que faz o tamanho da altura da nav, mas precisa do display: block*/
+    display: block;
+    text-transform: uppercase;
+}
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    background-color: red;
+}
+ul.lista,
+ol.lista{
+    margin: 10px 20px;
+}
