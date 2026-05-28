@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários e Inputs</title>
+    <style>
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        label[for="nome"]{
+            cursor: pointer;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <p>O meu formulário</p>
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+        </p>
+        <p>
+            <label for="selecionar">Você é humano?</label>
+            <input type="checkbox" name="selecao" id="selecao" value="sim">
+        </p>
+        <p>
+            Gênero:<br> 
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="masculino" value="masculino"><br>
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="genero" id="feminino" value="feminino"><br>
+            <label for="outro">Outro</label>
+            <input type="radio" name="genero" id="outro" value="outro"><br>
+        </p>
+        <p>
+            <button type="reset">Reiniciar</button>
+            <button type="submit">Enviar</button>
+        </p>
+    </form>
+</body>
+</html>
