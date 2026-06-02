@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.pai h1+p{
+    color: red;
+}
+.pai2 .um~.dois{
+    color: yellow;
+}
+[meu-atributo="valor"]{
+    color: blue;
+}
+[checked]{
+    width: 30px;
+    height: 30px;
+}
