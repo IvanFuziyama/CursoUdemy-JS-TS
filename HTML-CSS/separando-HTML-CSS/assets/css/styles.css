@@ -3,6 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+.heading:hover{
+    background-color: beige;
+}
+.heading{
+    transition: all 300ms ease-in-out;
+}
+input[type="text"]:disabled{
+    background-color: crimson;
+    cursor: not-allowed;
+}
+input:checked + p{
+    background-color: darkred;
+    color: whitesmoke;
+}
+a{
+    color: darkorange;
+}
+a:link{
+    color: pink;
+}
+a:visited{
+    color: firebrick;
+}
+a:hover{
+    background-color: blue;
+    color: whitesmoke;
+}
+a:active{
+    background-color: darkblue;
+    text-decoration: none;
+}
 .pai h1+p{
     color: red;
 }
@@ -16,3 +47,6 @@
     width: 30px;
     height: 30px;
 }
+.caixa .lista li:last-child{
+    background-color: aqua;
+} 
