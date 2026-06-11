@@ -50,3 +50,6 @@ a:active{
 .caixa .lista li:last-child{
     background-color: aqua;
 } 
+div.nao p:not(.meio){
+    color: aqua;
+}
