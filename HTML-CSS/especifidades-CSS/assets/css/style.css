@@ -1,0 +1,12 @@
+/* Hierarquia
+ID -> Classes/Atributos/pseudo-classes -> elementos/pseudo-elementos
+ */
+#p{
+    background: red;
+}
+.p{
+    background-color: yellow;
+}
+body#b-id p#p.p{
+    background: blue;
+}
