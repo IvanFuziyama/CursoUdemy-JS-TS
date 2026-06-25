@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+div.pai{
+    width: 50rem;
+    height: 100vh;
+    background-color: yellow;
+    overflow: hidden;
+}
+p{
+    font-size: 1.6rem;
+}
+div#two{
+    background-color: aquamarine;
+}
+div#three{
+    background-color: blueviolet;
+}
