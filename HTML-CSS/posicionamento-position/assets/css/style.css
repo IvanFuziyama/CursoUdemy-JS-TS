@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+
+div.filha1, div.filha2{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: static;
+}
+div.filha2{
+    background-color: greenyellow;
+    z-index: -1;
+    position: absolute;
+}
+div.filha1{
+    top: 50px;
+    left: 50px;
+    position: absolute;
+    z-index: -2;
+    /* position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,0,0, 0.6); */
+}
