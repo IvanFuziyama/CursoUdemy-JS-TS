@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    background-color: yellowgreen;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap; /* -> shortand */
+    justify-content: space-around;
+    gap: 10px;
+    height: 500px;
+    align-items: center;
+    padding: 10px;
+}
+.flex-item{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}
+.flex-item:nth-child(2){
+    align-self: flex-end;
+}
