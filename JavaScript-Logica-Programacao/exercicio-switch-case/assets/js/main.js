@@ -77,14 +77,21 @@ function getReceberMes(numMes){
     }
 }
 function getReceberData(data){
-    const dia = data.getDate();
-    const mes = data.getMonth();
+    const dia = getZero(data.getDate());
+    const mes = getZero(data.getMonth());
     const ano = data.getFullYear();
-    const hora = data.getHours();
-    const min = data.getMinutes();
-    console.log(`${diaSemanaTexto}, ${dia} de ${numMesTexto} de ${ano} ${hora}:${min}`)
+    const hora = getZero(data.getHours());
+    const min = getZero(data.getMinutes());
+    return `${diaSemanaTexto}, ${dia} de ${numMesTexto} de ${ano} ${hora}:${min}`;
 }
-
+function getZero(num){
+    if(num >= 10){
+        return num;
+    }else{
+        return `0${num}`;
+    }
+}
 
 console.log(receberDataTotal)
 dataText.innerHTML = `${receberDataTotal}`;
+
