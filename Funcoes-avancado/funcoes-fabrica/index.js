@@ -33,8 +33,10 @@ function criaPessoa(nome, sobrenome, altura, p){
     };
 }
 const p1 = criaPessoa('Michael', 'Jackson', 1.7, 80);
+const p2 = criaPessoa('Mano', 'Junior', 1.6, 70);
 // const p2 = criaPessoa('Maria', 'Juana', 1.6, 50);
 // console.log(p2.imc());
 // console.log(p2.fala('mané'))
-p1.nomeCompleto = 'Maria Oliveria Silveira Pereira'
+console.log(p2.imc());
+console.log(p1.imc());
 console.log(p1.nomeCompleto);
