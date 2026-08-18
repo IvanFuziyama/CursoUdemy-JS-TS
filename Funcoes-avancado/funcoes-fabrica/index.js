@@ -13,7 +13,7 @@ function criaPessoa(nome, sobrenome, altura, p){
             this.sobrenome = valor.join(' ');
         },
 
-        fala: function(assunto){ //metódo
+        fala(assunto){ //metódo
             return `${this.nome} está falando ${assunto}` //metódo
             // this.peso = p1.peso
         }, //metódo
