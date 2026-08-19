@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root{
+    --cor-fundo-body: #e4b144;
+    --cor-primaria-dark: #c09331;
+    --cor-fundo-container: #fff;
+    --font-family-padrao: 'Open sans', sans-serif
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    background-color: var(--cor-fundo-body);
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-padrao);
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+section.container{
+    max-width: 640px;
+    margin: 20px auto;
+    background-color: var(--cor-fundo-container);
+    padding: 20px;
+    border-radius: 5px;
+}
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input{
+    font-size: 24px;
+    height: 30px;
+    padding: 0 20px;
+}
+form input:focus{
+    outline: 1px solid var(--cor-fundo-body);
+}
+form button{
+    border: none;
+    background-color: var(--cor-fundo-body);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+form button:hover{
+    background-color: var(--cor-primaria-dark);
+    transition: 0.7s ease;
+}
+form button:active{
+    background-color: red;
+}
+.calculadora{
+    width: 400px;
+}
+.display{
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border:none;
+    background-color: #dfdfdf;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #c0c0c0;
+}
+.btn-eq{
+    background-color: #8280e7;
+}
+.btn-eq:hover{
+    background-color: #6260b9;
+}
