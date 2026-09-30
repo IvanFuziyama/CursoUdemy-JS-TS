@@ -43,7 +43,7 @@ Caneca.prototype.constructor = Caneca;
 const produto = new Produto('Qualquer', 62);
 const camiseta = new Camiseta('Regata', 7.5, 'Preta');
 const caneca = new Caneca('Caneca', 13, 'Plástico', 6);
-console.log(caneca.estoque)
+console.log(caneca.estoque)cd
 caneca.estoque = 100;
 // camiseta.aumento(10);
 console.log(caneca.estoque)
