@@ -19,7 +19,7 @@ esperaAi('Conexao com o BD', rand(1,3))
 })
 .then(resposta =>{
     console.log(resposta)
-    return esperaAi(222, rand(1,3));
+    return esperaAi('oi', rand(1,3));
 })
 .then(resposta =>{
     console.log(resposta);
